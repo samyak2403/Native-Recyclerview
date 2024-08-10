@@ -36,7 +36,7 @@ Step 2. Add the dependency
   
 
 	dependencies {
-	        implementation 'com.github.saitawngpha:NativeAds-RecyclerView:1.0.2'
+	       implementation 'com.github.samyak2403:NativeAds-Recyclerview:1.0'
 	}
 
 
