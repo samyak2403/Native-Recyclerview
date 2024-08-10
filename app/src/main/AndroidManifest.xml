@@ -15,7 +15,7 @@
         android:theme="@style/Theme.NativeRecyclerview"
         tools:targetApi="34">
         <activity
-            android:name=".MainActivity"
+            android:name="com.samyak2403.nativerecyclerview.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
