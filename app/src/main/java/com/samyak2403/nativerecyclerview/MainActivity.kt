@@ -13,7 +13,16 @@ class MainActivity : AppCompatActivity() {
 
     private val myAdapter by lazy { MyAdapter() }
     private lateinit var binding: ActivityMainBinding
-    private var dataList = arrayOf("Samyak kamble", "Ying Noom Hom Kham", "Nang Noung Lao Hurng", "Sai Maurng Zurn", "Aii Khun Tai", "Mo Khur Khun", "Mork Zarm Kham", "Hpoi Hseng Hurng")
+    private var dataList = arrayOf(
+        "Samyak Kamble",
+        "Tanushree ",
+        "Samruddhi",
+        "Ramisvari",
+        "Sam game",
+        "Pratiksh Patil",
+        "Samruddhi Powar"
+    )
+
     private var data = mutableListOf<UserModel>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,7 +43,7 @@ class MainActivity : AppCompatActivity() {
             recyclerView.adapter = admobNativeAdAdapter
         }
 
-        for (i in 0 until dataList.size){
+        for (i in 0 until dataList.size) {
             data.add(UserModel(dataList[i]))
         }
 
