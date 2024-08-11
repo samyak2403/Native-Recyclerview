@@ -48,6 +48,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
     implementation project(path: ':nativetemplates')
+    implementation project(path: ':bannerads')
     //cardview
     implementation 'androidx.cardview:cardview:1.0.0'
     //ads

@@ -97,7 +97,7 @@
 
               <androidx.appcompat.widget.AppCompatTextView
                   android:id="@+id/primary"
-                  android:background="@color/gnt_bg"
+                  android:background="@android:color/transparent"
                   android:textStyle="bold"
                   android:textSize="@dimen/gnt_text_size_large"
                   android:textColor="@color/gnt_text_primary"

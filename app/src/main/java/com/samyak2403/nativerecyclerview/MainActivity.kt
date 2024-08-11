@@ -3,8 +3,10 @@ package com.samyak2403.nativerecyclerview
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.com.samyak2403.nativerecyclerview.R
 import com.com.samyak2403.nativerecyclerview.databinding.ActivityMainBinding
 import com.google.rvadapter.AdmobNativeAdAdapter
+import com.samyak2403.bannerads.Control
 import com.samyak2403.nativerecyclerview.adapter.MyAdapter
 import com.samyak2403.nativerecyclerview.model.UserModel
 
@@ -29,6 +31,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
+
+        val control = Control(this)
+        val adUnitId = getString(R.string.admob_banner_id) // Fetch the AdMob banner ID from resources
+        control.loadBannerAd(R.id.bannerAdContainer, adUnitId)
 
         binding.apply {
             recyclerView.layoutManager = LinearLayoutManager(this@MainActivity)
