@@ -1,6 +1,8 @@
 ## NativeAds RecyclerView Library
 >Android library for add Naive Ads into RecyclerView list items.
 
+![pv](https://pageview.vercel.app/?github_user=NativeAds-Recyclerview)
+
 ## Update
 - Updated to the latest version of Admob SDK
 - Supported on Android SDK 30, 31, 32, 33, 34
